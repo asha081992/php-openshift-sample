@@ -17,8 +17,102 @@
 
 // Check platform requirements
 require dirname(__DIR__) . '/config/requirements.php';
+<html>
+</<html>
+<head>
+	<title></title>
+</head>
+<body>
+<h1>Welcome to cakephp</h1>
+<div class="row">
+                    <div class="col-md-6">
+                <?php echo $this->Form->create('User');?>
+                <fieldset>
+                    <legend><?php __('Add User'); ?></legend>
+                    <div class="form-group has-feedback">
+                                    <label>Username</label>
+                                    <?php echo $this->Form->input('lastname',array('class'=>'form-control','label'=>false,'div'=>false));
+                                    ?>
+                                    <i class="icon-users form-control-feedback"></i>
+                   </div>
+                   <div class="form-group has-feedback">
+                                    <label>firstname</label>
+                                    <?php echo $this->Form->input('firstname',array('class'=>'form-control','label'=>false,'div'=>false));
+                                    ?>
+                                    <i class="icon-users form-control-feedback"></i>
+                    </div>
+                    <div class="form-group has-feedback">
+                                    <label>Email</label>
+                                    <?php echo $this->Form->input('email',array('class'=>'form-control','label'=>false,'div'=>false));
+                                    ?>
+                                    <i class="icon-users form-control-feedback"></i>
+                    </div>
+                     <div class="form-group has-feedback">
+                                    <label>organizer_pic</label>
+                                    <?php echo $this->Form->input('organizer_pic',array('class'=>'form-control','label'=>false,'div'=>false));
+                                    ?>
+                                    <i class="icon-users form-control-feedback"></i>
+                    </div>
+                    <div class="form-group has-feedback">
+                                    <label>description</label>
+                                    <?php echo $this->Form->input('description',array('class'=>'form-control','label'=>false,'div'=>false));
+                                    ?>
+                                    <i class="icon-users form-control-feedback"></i>
+                    </div>
+                     <div class="form-group has-feedback">
+                                    <label>website</label>
+                                    <?php echo $this->Form->input('website',array('class'=>'form-control','label'=>false,'div'=>false));
+                                    ?>
+                                    <i class="icon-users form-control-feedback"></i>
+                    </div>
+                     <div class="form-group has-feedback">
+                                    <label>company</label>
+                                    <?php echo $this->Form->input('company',array('class'=>'form-control','label'=>false,'div'=>false));
+                                    ?>
+                                    <i class="icon-users form-control-feedback"></i>
+                    </div>
+                     <div class="form-group has-feedback">
+                                    <label>organization</label>
+                                    <?php echo $this->Form->input('organization',array('class'=>'form-control','label'=>false,'div'=>false));
+                                    ?>
+                                    <i class="icon-users form-control-feedback"></i>
+                    </div>
+                    <div class="form-group has-feedback">
+                                    <label>contact number</label>
+                                    <?php echo $this->Form->input('contact_num',array('class'=>'form-control','label'=>false,'div'=>false));
+                                    ?>
+                                    <i class="icon-users form-control-feedback"></i>
+                    </div>
+                    <div class="form-group has-feedback">
+                                    <label>username</label>
+                                    <?php echo $this->Form->input('username',array('class'=>'form-control','label'=>false,'div'=>false));
+                                    ?>
+                                    <i class="icon-users form-control-feedback"></i>
+                    </div>
+                     <div class="form-group has-feedback">
+                                    <label>password</label>
+                                    <?php echo $this->Form->input('password',array('class'=>'form-control','label'=>false,'div'=>false));
+                                    ?>
+                                    <i class="icon-users form-control-feedback"></i>
+                    </div>
+                     <div class="form-group has-feedback">
+                                    <label>group id</label>
+                                    <?php echo $this->Form->input('group_id',array('class'=>'form-control','label'=>false,'div'=>false));
+                                    ?>
+                                    <i class="icon-users form-control-feedback"></i>
+                    </div>
+                     <div class="form-group has-feedback">
+                     <?php
+                     echo $this->Form->button('Submit',array('class'=>'btn btn-success btn-xs','div'=>false),array('escape'=>false)
+                            );
+                     ?>
+                     </div>
+                </fieldset><?php echo $this->Form->end();?>
+                </div>
+                </div>
+</body>
+</html>
 
-<?php echo "Hello World"; ?>
 
 // // For built-in server
 // if (php_sapi_name() === 'cli-server') {
