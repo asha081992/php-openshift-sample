@@ -18,8 +18,7 @@
 // Check platform requirements
 require dirname(__DIR__) . '/config/requirements.php';
 
-<? php $variable = "Heuy sdnlasdla"?>
-<?php echo $variable; ?>
+<?php echo "Hello World"; ?>
 
 // // For built-in server
 // if (php_sapi_name() === 'cli-server') {
