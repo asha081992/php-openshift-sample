@@ -29,7 +29,7 @@ require dirname(__DIR__) . '/config/requirements.php';
    </div>
   
  <div class="footer">
-	&copy; <?php echo date("MM-DD-YYYY");?>
+	&copy; <?php echo date("M-d-Y");?>
 </div>
 </body>
 </html>
