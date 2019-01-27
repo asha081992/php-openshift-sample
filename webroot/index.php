@@ -18,7 +18,7 @@
 // Check platform requirements
 require dirname(__DIR__) . '/config/requirements.php';
 
-echo "Helllo world" 
+echo "Helllo world";
 ?>
 
 
