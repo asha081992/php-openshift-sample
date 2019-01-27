@@ -19,19 +19,17 @@
 require dirname(__DIR__) . '/config/requirements.php';
 ?>
 <html>
-</<html>
 <head>
-	<title></title>
+	<title>Welcome</title>
 </head>
 <body>
 <h1>Welcome to cakephp</h1>
 <div class="row">
+	Hello World!
    </div>
-                
-            <p>lorem ipusum lorem ipusum lorem ipusumlorem ipusumlorem ipusumlorem ipusumlorem ipusumlorem ipusumlorem ipusumlorem ipusumlorem ipusumlorem ipusumlorem ipusumlorem ipusumlorem ipusum
-            	lorem ipusumlorem ipusumlorem ipusumlorem ipusumlorem ipusumlorem ipusumlorem ipusumlorem ipusum<p/>    
+  
  <div class="footer">
-	&copy; <?php print date("Y");?>
+	&copy; <?php echo date("Y");?>
 </div>
 </body>
 </html>
