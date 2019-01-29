@@ -25,8 +25,8 @@ require dirname(__DIR__) . '/config/requirements.php';
 <body>
 <h1>Welcome to cakephp</h1>
 <div class="row">
-	Hello People!
-   </div>
+	Welcome to openshift!
+   </div>rr5
   
  <div class="footer">
 	&copy; <?php echo date("M-d-Y");?>
